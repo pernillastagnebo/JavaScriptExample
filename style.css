@@ -1,0 +1,108 @@
+	/* Generella egenskaper för sidan */
+body {
+	background-image: url(skulls.png);
+}
+
+p {
+	color: #BA9343;
+	font-family: "courier new";
+	font-size: 14px;
+	text-align:center;
+}
+
+i {
+	font-size:12px;
+}
+
+b {
+	padding-top: 100px;
+}
+
+h2 {
+	padding-top: 30px;
+	font-family: helvetica;
+	color:#826832;
+}
+
+
+
+
+	/* Boxen som har allt innehåll */
+#content {
+	margin:auto;
+	width:700px;
+}
+
+
+
+
+	/* Headern */
+.style header {
+	height:100px;
+	width:700px;
+	margin:0px;
+}
+
+
+
+
+	/* Menyn */
+#menu {
+	width:700px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#menu li {
+	list-style-type: none;
+	display: inline;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+#chosen {
+	text-decoration: underline;
+}
+
+.sitelinks {
+	text-decoration: none;
+	font-family: "courier new";
+	font-size: 20px;
+	color:#BA9343;
+}
+
+
+
+
+	/* Innehåll */
+section {
+	background-color: white;
+	padding-right:40px;
+	padding-left: 40px;
+	font-family: helvetica;
+	padding-bottom:20px;
+}
+
+section > p {
+	font-family: helvetica;
+	text-align:left;
+	color:#826832;
+	font-size: 14px;
+}
+
+
+
+
+	/* Sidfot*/
+.style footer {
+	padding-bottom:30px;
+}
+
+
+
+.styleny {
+	background-color: black;
+}
+
+
+
